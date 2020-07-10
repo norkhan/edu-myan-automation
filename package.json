@@ -1,0 +1,20 @@
+{
+  "name": "web-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google.test.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 30000",
+    "start": "node index.js",
+    "dev": "URL=http://testing.educatemyanmar.com/ node index.js"
+  },
+  "author": "Soe Thu <soe.thu.mail.com@gmail.com>",
+  "license": "MIT lience"
+}
